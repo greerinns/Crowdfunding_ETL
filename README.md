@@ -1,6 +1,6 @@
 # Crowdfunding_ETL
 This is the second project in the UC Berkeley Data Analytics Bootcamp.
-The project, named Crowdfunding_ETL, involved extracting, transforming, and loading data from Excel files into a PostgreSQL database.
+Crowdfunding_ETL, involved extracting, transforming, and loading data from Excel files into a PostgreSQL database.
 
 ## Subsection 1: Category and Subcategory DataFrames
 In the first subsection, the Category and Subcategory DataFrames were created. The crowdfunding.xlsx Excel data was extracted and transformed to create a category DataFrame with columns for "category_id" and "category." The "category_id" column contained sequential entries from "cat1" to "catn," representing the unique categories, and the "category" column contained the corresponding category titles. A similar process was followed to create a subcategory DataFrame with columns for "subcategory_id" and "subcategory." The "subcategory_id" column had entries from "subcat1" to "subcatn," representing unique subcategories, and the "subcategory" column contained the corresponding subcategory titles. Both the category and subcategory DataFrames were exported as CSV files.
