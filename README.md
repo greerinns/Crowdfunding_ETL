@@ -28,5 +28,7 @@ In this subsection, the Contacts DataFrame was created. There were two options p
 ## Subsection 4: Crowdfunding Database
 The final subsection focused on creating the Crowdfunding Database. The CSV files and the ERD (Entity-Relationship Diagram) were inspected. The table schema for each CSV file was sketched based on the ERD using QuickDBD. The database schema, specifying data types, primary keys, foreign keys, and other constraints, was saved as a PostgreSQL file named crowdfunding_db_schema.sql and stored in the GitHub repository. A new PostgreSQL database named "crowdfunding_db" was created, and the tables were created in the order according to the database schema foreign key relationships. The table creation was verified by running SELECT statements for each table. Finally, the CSV files were imported into their corresponding SQL tables, and SELECT statements were used to ensure the correct data was present in each table.
 
+<img width="758" alt="Screenshot 2023-05-25 at 8 14 39 PM" src="https://github.com/estellesantini/Crowdfunding_ETL/assets/47437697/2f6e2038-5474-4a91-a8e0-7a368a379039">
+
 ## Conclusion:
 Overall, the project successfully completed the extraction, transformation, and loading of data from Excel files into a PostgreSQL database utilizing appropriate data structures and tools.
