@@ -12,13 +12,14 @@ In the first subsection, the Category and Subcategory DataFrames were created. T
 ### Subcategory DataFrame
 A similar process was followed to create a subcategory DataFrame with columns for "subcategory_id" and "subcategory." The "subcategory_id" column had entries from "subcat1" to "subcatn," representing unique subcategories, and the "subcategory" column contained the corresponding subcategory titles. Both the category and subcategory DataFrames were exported as CSV files.
 
-![Screenshot 2023-05-25 at 8 08 04 PM](https://github.com/estellesantini/Crowdfunding_ETL/assets/47437697/2c17c3d0-53cb-4b30-b4ab-f62007abd078)!
+![Screenshot 2023-05-26 at 11 02 09 AM](https://github.com/estellesantini/Crowdfunding_ETL/assets/47437697/ee46ca91-89f6-4a86-9c03-289f1f3e70d4)
 
 ## Subsection 2: Campaign DataFrame
 Next, the Campaign DataFrame was created. The crowdfunding.xlsx Excel data was extracted and transformed to create a campaign DataFrame with several columns including "cf_id," "contact_id," "company_name," "description," "goal," "pledged," "outcome," "backers_count," "country," "currency," "launch_date," "end_date," "category_id," and "subcategory_id." The data types of certain columns were converted, and the "blurb" column was renamed to "description." The "launch_date" and "end_date" columns were converted to datetime format. The "category_id" and "subcategory_id" columns were matched with the unique identification numbers from the category and subcategory DataFrames. The campaign DataFrame was exported as a CSV file and saved to the GitHub repository.
-![Screenshot 2023-05-25 at 8 09 37 PM](https://github.com/estellesantini/Crowdfunding_ETL/assets/47437697/f7a9d7fa-43b1-49b0-a700-8e5dbc0305ab)
 
-![Screenshot 2023-05-25 at 8 10 17 PM](https://github.com/estellesantini/Crowdfunding_ETL/assets/47437697/baf38582-9712-46bc-bab7-8ffce05e1c75)
+![Screenshot 2023-05-26 at 11 02 57 AM](https://github.com/estellesantini/Crowdfunding_ETL/assets/47437697/e8b248f3-4967-4535-a86a-c482d743d1c5)
+
+![Screenshot 2023-05-26 at 11 04 22 AM](https://github.com/estellesantini/Crowdfunding_ETL/assets/47437697/3c2efa71-c375-41ce-b8af-ef9033b1a3ea)
 
 ## Subsection 3: Contacts DataFrame
 In this subsection, the Contacts DataFrame was created. There were two options provided for extracting and transforming the data from the contacts.xlsx Excel file. Option 1 involved using Python dictionary methods, while Option 2 utilized regular expressions. The chosen option was implemented to import the contacts.xlsx file into a DataFrame and convert each row into a dictionary. The dictionary values were extracted and added to a new list. A new DataFrame was created using the extracted data, and the "name" column was split into separate columns for first and last names. The resulting Contacts DataFrame was cleaned and exported as a CSV file, which was saved to the GitHub repository.
