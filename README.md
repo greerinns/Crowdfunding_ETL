@@ -1,8 +1,7 @@
 # Crowdfunding_ETL
 
 ## Project Overview
-
-This project represents the second milestone within the UC Berkeley Data Analytics Bootcamp curriculum. Crowdfunding_ETL involves the Extraction, Transformation, and Loading (ETL) of data from Excel files into a PostgreSQL database.
+Crowdfunding_ETL involves the Extraction, Transformation, and Loading (ETL) of data from Excel files into a PostgreSQL database.
 
 ## Subsection 1: Category and Subcategory DataFrames
 
