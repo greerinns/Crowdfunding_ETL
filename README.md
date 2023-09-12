@@ -33,7 +33,4 @@ The final subsection centers around the creation of the Crowdfunding Database. W
 
 ## Conclusion
 
-Crowdfunding_ETL represents a meticulous and systematic effort to extract, transform, and load data from Excel files into a PostgreSQL database. This project reflects the skillful application of data engineering techniques, enabling the seamless transformation of raw data into structured, accessible, and informative datasets." src="https://github.com/estellesantini/Crowdfunding_ETL/assets/47437697/2f6e2038-5474-4a91-a8e0-7a368a379039">
-
-## Conclusion:
-Overall, the project successfully completed the extraction, transformation, and loading of data from Excel files into a PostgreSQL database utilizing appropriate data structures and tools.
+Crowdfunding_ETL represents a meticulous and systematic effort to extract, transform, and load data from Excel files into a PostgreSQL database. This project reflects the skillful application of data engineering techniques, enabling the seamless transformation of raw data into structured, accessible, and informative datasets.
